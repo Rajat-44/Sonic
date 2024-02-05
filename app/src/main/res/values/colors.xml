@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#2b5cb8</color>
+    <color name="colorPrimaryDark">#153fb2</color>
+    <color name="colorAccent">#7ED4FA</color>
+    <color name="DarkBlue">#2b5cb8</color>
+    <color name="LightBlue">#3e7ff8</color>
+    <color name="seablue">#05c3f9</color>
+    <color name="white">#fff</color>
+    <color name="lightcard">#536B8A</color>
+
+
+
+    <color name="googleblue">#4285f4</color>
+    <color name="googlegreen">#34a853</color>
+    <color name="googleyellow">#fbbc05</color>
+    <color name="googlered">#ea4335</color>
+</resources>

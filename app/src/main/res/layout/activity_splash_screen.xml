@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:id="@+id/splashactivity"
+    android:orientation="vertical"
+    android:visibility="visible"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient"
+    android:foreground="@drawable/ripple"
+    android:clickable="true"
+    android:focusable="true"
+    tools:context=".SplashScreen">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/l"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <com.sdsmdg.harjot.longshadows.LongShadowsWrapper
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="400dp"
+            android:textAlignment="center"
+            >
+
+            <com.sdsmdg.harjot.longshadows.LongShadowsImageView
+                android:id="@+id/iv"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="0dp"
+                android:src="@mipmap/icon" />
+
+
+
+            <com.sdsmdg.harjot.longshadows.LongShadowsTextView
+                android:id="@+id/tv"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="300dp"
+                android:text="Sonic"
+                android:layout_centerHorizontal="true"
+                android:textColor="@color/white"
+                app:shadow_length="3"
+                android:textSize="23sp"
+                android:textStyle="bold" />
+
+        </com.sdsmdg.harjot.longshadows.LongShadowsWrapper>
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:textAlignment="center"
+        android:gravity="center"
+       >
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:id="@+id/name"
+            android:layout_height="wrap_content"
+android:layout_marginBottom="10dp"
+            android:text="Made by Rajat Badaria"
+            android:textAlignment="center"
+            android:textColor="#999"
+
+            android:textSize="17sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+</RelativeLayout>

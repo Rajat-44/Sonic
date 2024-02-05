@@ -1,0 +1,66 @@
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardBackgroundColor="@color/lightcard"
+    android:foreground="@drawable/ripple"
+app:cardElevation="15dp"
+    android:clickable="true"
+    android:focusable="true"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:padding="0dp"
+        android:foreground="@drawable/ripple"
+        android:clickable="true"
+        android:focusable="true"
+
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:padding="20dp"
+            android:layout_gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tvSongName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:marqueeRepeatLimit="3"
+                android:maxLines="1"
+                android:textColor="@color/white"
+                android:text="Shape of you"
+                android:textSize="20sp"
+                android:typeface="serif" />
+
+            <TextView
+                android:id="@+id/tvArtistName"
+                android:maxLines="1"
+                android:textColor="#eee"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:typeface="sans"
+                android:text="Ed Sheeran" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btnPlay"
+            android:layout_width="113dp"
+            android:textStyle="bold"
+            android:foreground="@drawable/ripple"
+            android:clickable="true"
+            android:focusable="true"
+            android:layout_height="match_parent"
+            android:layout_weight="0"
+            android:background="@color/lightcard"
+            android:text="Play"
+            android:textColor="@color/white"
+            />
+    </LinearLayout>
+</android.support.v7.widget.CardView>
